@@ -1,5 +1,27 @@
-{% extends "_layouts/auth.njk" %}
+{% extends "_layouts/auth.njk" %} {% block body %}
+<form action="/signup" method="POST">
+  <label for="avatar">
+    <img src="/images/avatar.svg" height="24" />
+  </label>
 
-{% block body %}
-<h1>teste</h1>
+  <input id="avatar" name="avatar" type="file" />
+
+  <input type="text" name="name" placeholder="Nome Completo" />
+  <input type="email" name="email" placeholder="Digite Seu Email" />
+  <input type="password" name="password" placeholder="Digite Sua Senha" />
+
+  <button type="submit">Criar Conta</button>
+
+  <a href="/">Já possuo conta!</a>
+</form>
+
+<script type="text/javascript">
+  const avatarImput = document.getElementById("avatar");
+  var img = document.querySelector("label[for=avatar] img");
+
+  avatarImput.onchange = function(e) {
+    img.classList.add("preview");
+    img.src = URL.createObjectURL(e.target.files[0]);
+  };
+</script>
 {% endblock %}
