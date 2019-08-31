@@ -5,7 +5,7 @@ module.exports = {
   password: "root",
   database: "blog_krj",
   operatorAliases: false,
-  difine: {
+  define: {
     timestamps: true,
     underscored: true,
     underscoredAll: true

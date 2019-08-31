@@ -8,7 +8,9 @@ module.exports = (sequelize, DataTypes) => {
       email: DataTypes.STRING,
       avatar: DataTypes.STRING,
       password: DataTypes.VIRTUAL,
-      password_hash: DataTypes.STRING
+      password_hash: DataTypes.STRING,
+      created_at: DataTypes.DATE,
+      updated_at: DataTypes.DATE
     },
     {
       hooks: {
