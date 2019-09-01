@@ -1,8 +1,21 @@
-{% extends "_layouts/default.njk" %}
+{% extends "_layouts/default.njk" %} {% block body %}
 
-{% block body %}
-
-<h1>Olá, {{ user.name }}</h1>
-<a href="/app/logout">Sair da sessão</a>
+<header>
+  <br />
+  <img src="/images/logo.png" height="64" />
+</header>
+<br />
+<section>
+  <audio
+    src="https://s0.vocaroo.com/media/download_temp/Vocaroo_s0gwBwC0Zjzt.webm"
+    controls
+    autoplay
+  ></audio>
+  <div>.</div> 
+  <div>Bem vindo(a) {{ user.name }}</div>
+</section>
+<footer>
+  <p>&copy; BlogKRJ</p>
+</footer>
 
 {% endblock %}
