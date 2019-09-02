@@ -14,7 +14,7 @@ section {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.288);
   text-align: center;
 }
-
+/*PORRA!!*/
 #menu ul {
   margin: 0;
   background-color: #d16289;
@@ -32,11 +32,7 @@ section {
   color: antiquewhite;
   text-decoration: none;
   position: relative;
-<<<<<<< HEAD
-  right: 10px;
-=======
   right: -70px;
->>>>>>> d4dd7655b53c97170b9c75808f13ee2c013bdc9e
 }
 
 #menu ul li a:hover {
@@ -44,11 +40,7 @@ section {
 }
 
 #logout {
-<<<<<<< HEAD
-  left: 350px;
-=======
   left: 340px;
->>>>>>> d4dd7655b53c97170b9c75808f13ee2c013bdc9e
 }
 /* div { 
 
