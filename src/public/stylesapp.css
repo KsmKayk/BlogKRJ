@@ -12,6 +12,7 @@ section {
   width: 1280px;
   margin: auto;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.288);
+  text-align: center;
 }
 
 #menu ul {
@@ -32,7 +33,7 @@ section {
   color: antiquewhite;
   text-decoration: none;
   position: relative;
-  left: 350px;
+  right: 10px;
 }
 
 #menu ul li a:hover {
@@ -40,7 +41,7 @@ section {
 }
 
 #logout {
-  
+  left: 350px;
 }
 /* div { 
 
