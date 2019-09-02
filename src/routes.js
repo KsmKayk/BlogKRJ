@@ -32,4 +32,20 @@ routes.get("/app/dashboard", (req, res) => {
   return res.render("dashboard");
 });
 
+routes.get("/app/posts", (req, res) => {
+  console.log(req.session.user);
+  return res.render("posts");
+});
+
+routes.get("/app/posts/post01", (req, res) => {
+  console.log(req.session.user);
+  return res.render("./posts/post01");
+});
+
+routes.get("/app/sobre", (req, res) => {
+  console.log(req.session.user);
+  return res.render("sobre");
+});
+
+
 module.exports = routes;
