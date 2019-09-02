@@ -20,7 +20,6 @@ section {
   list-style: none;
   border-radius: 20px;
   padding: 10px;
-  position: center;
 }
 
 #menu ul li {
@@ -33,13 +32,16 @@ section {
   color: antiquewhite;
   text-decoration: none;
   position: relative;
-  right: -300px;
+  left: 350px;
 }
 
 #menu ul li a:hover {
   color: #5c2b3c;
 }
 
+#logout {
+  
+}
 /* div { 
 
 }
