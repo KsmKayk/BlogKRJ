@@ -4,7 +4,6 @@ body {
 }
 header {
   color: white;
-  text-align: center;
 }
 section {
   background: white;
@@ -13,7 +12,6 @@ section {
   width: 1280px;
   margin: auto;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.288);
-  text-align: center;
 }
 
 #menu ul {
@@ -22,28 +20,33 @@ section {
   list-style: none;
   border-radius: 20px;
   padding: 10px;
+  position: center;
 }
 
 #menu ul li {
   display: inline;
-  text-align: center;
+
 }
 
 #menu ul li a {
   padding: 35px;
-
   color: antiquewhite;
   text-decoration: none;
+  position: relative;
+  right: -300px;
 }
 
 #menu ul li a:hover {
   color: #5c2b3c;
 }
-div {
-  text-align: center;
+
+/* div { 
+
 }
+|*/
 footer {
   color: white;
   text-align: center;
   font-style: italic;
 }
+
