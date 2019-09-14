@@ -34,6 +34,7 @@ section {
   text-decoration: none;
   position: relative;
   right: -70px;
+  top: -16px;
 }
 
 #menu ul li a:hover {
@@ -41,12 +42,16 @@ section {
 }
 
 #logout {
-  left: 380px;
+  left: 370px;
 }
-/* div { 
 
+#uprofile {
+  position: relative;
+  left: 340px;
+  border-radius: 30px;
+  top: 3px;
 }
-|*/
+
 footer {
   color: white;
   text-align: center;
